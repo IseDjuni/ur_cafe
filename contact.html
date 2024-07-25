@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="eng">
+ <html lang="en">
     <head>
      <title>UR_cafe_feedback</title>
      <meta name="author" content="Ibrahim Said Embalo">
@@ -66,7 +66,7 @@
   <center>        
     <div class="feedback">
      <form action="mailto:urcafeofficial@gmail.com" method="post" enctype="text/plain">
-      <select class="select_bar" required>
+      <select class="select_bar" name="Purpose of letter" required>
         <option disabled selected style="color: white;">Purpose of letter</option>
         <option value="Want to be a partner"><ul><li>Want to be a partner</li></option>
         <option value="Customer Line Complain"><li>Customer Line Complain</li></option>
@@ -80,14 +80,14 @@
       </select>
       <br /><br /><br /><br /><br /><br />
              <div style="display: block;">
-             NAME : <input type="text" name="user_name" max="25" placeholder="Enter name" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
-             PHONE/ MAIL :<input type="text" type="number" name="Phone" max="25" placeholder="Purpose" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
-             COUNTRY : <input type="text" name="country" max="25" placeholder="Country" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
-             GENDER : <input type="radio" name="sex" value="Male" required />Male <input type="radio" required name="sex" value="Female"/>Female <br /><br />
-             AGE : <input type="radio" name="age" value="under _18" required />Under 18 <input type="radio" required name="age" value="18-35"/>(18-35) <input type="radio" name ="age" value="35 Above"/> 35 Above<br /><br />
+             NAME : <input type="text" name="Customer Name" max="25" placeholder="Enter name" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
+             PHONE/ MAIL :<input type="text" type="number" name="Phone & Email" max="25" placeholder="Phone/mail" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
+             COUNTRY : <input type="text" name="Country" max="25" placeholder="Country" style="caret: rgb(7, 195, 252); border: 1px solid white; border-radius: 2px; width: 50%; background-color: transparent; color: white; padding: 6px;" autocorrect required /><br /><br />
+             GENDER : <input type="radio" name="Gender" value="Male" required />Male <input type="radio" required name="Gender" value="Female"/>Female <br /><br />
+             AGE : <input type="radio" name="Age" value="Under_18" required />Under 18 <input type="radio" required name="Age" value="18-35"/>(18-35) <input type="radio" name ="Age" value="35 Above"/> 35 Above<br /><br />
              </div>
             <br />
-            <textarea row="3" cols="3" max="10" style="width: 50%; height: 200px; border-radius: 5px; padding: 20px;color: whitesmoke; background-color: rgba(255, 255, 255, 0.1);" placeholder="Leave a massage..."></textarea><br />
+            <textarea name="Message" row="3" cols="3" max="10" style="width: 50%; height: 200px; border-radius: 5px; padding: 20px;color: whitesmoke; background-color: rgba(255, 255, 255, 0.1);" placeholder="Leave a massage..."></textarea><br />
             <input type="submit" value="Submit" class="label_btn"/>&nbsp&nbsp&nbsp<input type="reset" value="Reset" class="label_btn"/>
      </form>
     </div>
