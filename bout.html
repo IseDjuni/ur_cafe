@@ -42,7 +42,7 @@
                closeTime.setHours(14,0,0);
 
    var currentTime = new Date(currentTime).getHours(7,0,0);
-    if (currentTime >= openTime || currentTime <= closeTime){
+    if (currentTime >= openTime && currentTime <= closeTime){
         return "OPENED";
     } else {
         return "CLOSED";
@@ -214,7 +214,7 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
            Monday/Sunday<br />
            Open : 7am<br />
            Close : 9pm<br />
-          <i>Now :<div id="status" style="color: rgb(255, 0, 0); font-size: 18px;"></div> </i>
+          <i>Now :<div id="sstatus" style="color: rgb(255, 0, 0); font-size: 18px;"></div> </i>
               <script>
                  function getstatus(currentTime){
                  var time = new Date().getHours();
@@ -226,7 +226,7 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
                  return("CLOSED")
                }
               };
-                document.getElementById("status"). innerHTML = getstatus(currentTime);
+                document.getElementById("sstatus"). innerHTML = getstatus(currentTime);
                </script>
          </code>
       </div>
@@ -260,7 +260,7 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
            <li>Monday/Sunday</li><br />
            <li>Open : 7am</li><br />
            <li>Close : 9pm</li><br />
-           <li><i>Now :<div id="status" style="color: rgb(255, 0, 0); font-size: 18px;"></div></li> </i>
+           <li><i>Now :<div id="ssstatus" style="color: rgb(255, 0, 0); font-size: 18px;"></div></li> </i>
                <script>
                   function getstatus(currentTime){
                   var time = new Date().getHours();
@@ -272,7 +272,7 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
                   return("CLOSED")
                 }
                };
-                 document.getElementById("status"). innerHTML = getstatus(currentTime);
+                 document.getElementById("ssstatus"). innerHTML = getstatus(currentTime);
                 </script>
           </div>
         </div>
