@@ -42,7 +42,7 @@
                closeTime.setHours(14,0,0);
 
    var currentTime = new Date(currentTime).getHours(7,0,0);
-    if (currentTime >= openTime && currentTime <= closeTime){
+    if (currentTime >= openTime || currentTime <= closeTime){
         return "OPENED";
     } else {
         return "CLOSED";
