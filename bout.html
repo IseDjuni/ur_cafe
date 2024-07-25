@@ -43,9 +43,9 @@
 
    var currentTime = new Date(currentTime).getHours(7,0,0);
     if (currentTime >= openTime && currentTime <= closeTime){
-        return "OPENED";
+        return("OPENED");
     } else {
-        return "CLOSED";
+        return ("CLOSED");
     }
 };
 document.getElementById("status"). innerHTML = getstatus(currentTime);
@@ -218,12 +218,12 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
               <script>
                  function getstatus(currentTime){
                  var time = new Date().getHours();
-                 if (time > 7){
-                 return("OPENED")
-                 } else if (time > 9){
-                 return("CLODED")
+                 if (time > 7,0,0){
+                 return("OPENED");
+                 } else if (time > 21,0,0){
+                 return("CLODED");
                  } else {
-                 return("CLOSED")
+                 return("CLOSED");
                }
               };
                 document.getElementById("sstatus"). innerHTML = getstatus(currentTime);
@@ -265,11 +265,11 @@ document.getElementById("status"). innerHTML = getstatus(currentTime);
                   function getstatus(currentTime){
                   var time = new Date().getHours();
                   if (time > 7){
-                  return("OPENED")
+                  return("OPENED");
                   } else if (time > 9){
-                  return("CLODED")
+                  return("CLODED");
                   } else {
-                  return("CLOSED")
+                  return("CLOSED");
                 }
                };
                  document.getElementById("ssstatus"). innerHTML = getstatus(currentTime);
