@@ -45,6 +45,20 @@
       .contact_ref{
          flex-wrap: wrap;
       }
+   }nav div.links a::before {
+      content:'';
+      position: absolute;
+      bottom: -7px;
+      height: 2px;
+      background-color: rgb(255, 106, 6);
+      width: 0%;
+      transition: all ease-out .3s;
+   }
+   nav div.links a:hover::before{
+      width: 6%;
+   }
+   nav div.links a:hover{
+      font-size: large;
    }
    .ads{
       display: inline-flex;
