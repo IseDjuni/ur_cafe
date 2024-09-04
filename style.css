@@ -61,7 +61,7 @@
 nav div.links a::after {
    content:'';
    position: absolute;
-   left: 0;
+   right: 0;
    bottom: -7px;
    height: 2px;
    background-color: rgb(255, 106, 6);
