@@ -1,4 +1,4 @@
-
+1
    @media all and (max-width: 768px){
       .gallary{
          flex-wrap: wrap;
@@ -285,6 +285,7 @@ nav div.links a:hover{
          
      }
      .links{
+        width: fit-content;
         text-transform: uppercase;
          color: white;
          font-size: 15px;
