@@ -277,22 +277,6 @@
          top: -70px;
          text-shadow: 2px 2px 5px rgb(0,0,0);
      }
-nav div.links a::after {
-   content:'';
-   position: absolute;
-   bottom: -7px;
-   height: 2px;
-   background-color: rgb(255, 106, 6);
-   width: 0%;
-   transition: all .5s;
-}
-nav div.links a:hover::after{
-   width: 100%;
-}
-nav div.links a:hover{
-   font-size: large;
-}
-
      .uiux{
          font-family: 'CustomFont';
          position: relative;
