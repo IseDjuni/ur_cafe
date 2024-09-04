@@ -61,7 +61,7 @@
 nav div.links a::before {
    content:'';
    position: absolute;
-   left: 0px;
+   left: 0;
    bottom: -7px;
    height: 2px;
    background-color: rgb(255, 106, 6);
@@ -285,11 +285,11 @@ nav div.links a:hover{
          
      }
      .links{
-        width: fit-content;
-        text-transform: uppercase;
+         text-transform: uppercase;
          color: white;
          font-size: 15px;
          position: relative;
+         float: center;
          text-align: center;
          top: -70px;
          text-shadow: 2px 2px 5px rgb(0,0,0);
