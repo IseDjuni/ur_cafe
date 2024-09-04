@@ -74,6 +74,7 @@ nav div.links a:hover::before{
 nav div.links a{
    padding:0 10px;
    text-align: center;
+   float: center;
    margin: 0 30px;
 }
 nav div.links a:hover{
