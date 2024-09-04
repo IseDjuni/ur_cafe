@@ -1,4 +1,4 @@
-1
+
    @media all and (max-width: 768px){
       .gallary{
          flex-wrap: wrap;
@@ -66,12 +66,10 @@ nav div.links a::before {
    height: 2px;
    background-color: rgb(255, 106, 6);
    width: 0%;
-   padding:0 10px;
-   margin: 0 30px;
    transition: all .5s;
 }
 nav div.links a:hover::before{
-   width: 100%;
+   width: fit-content;
 }
 nav div.links a:hover{
    font-size: large;
