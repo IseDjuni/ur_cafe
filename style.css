@@ -69,7 +69,7 @@ nav div.links a::before {
    transition: all .5s;
 }
 nav div.links a:hover::before{
-   width: fit-content;
+   width: 100%;
 }
 nav div.links a:hover{
    font-size: large;
