@@ -1,5 +1,5 @@
 
-   @media screen and (max-width: 768px){
+   @media all and (max-width: 768px){
       .gallary{
          flex-wrap: wrap;
       }
@@ -58,6 +58,19 @@
    a{
       text-decoration: none;
    }
+nav a::before {
+   content='';
+   position: absolute;
+   left: 0px;
+   bottom: 8px;
+   height: 3px;
+   background-color: rgb(255, 106, 6);
+   width: 0%;
+   transition: all ease 5s;
+}
+nav a:hover::before{
+   width: 100%;
+}
    .owner{
       margin-left: 0px;
       margin-right: 0px;
