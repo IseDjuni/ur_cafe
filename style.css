@@ -60,7 +60,6 @@
    }
 nav div.links a::before {
    content:'';
-   left: 0;
    position: absolute;
    bottom: -7px;
    height: 2px;
