@@ -58,7 +58,7 @@
    a{
       text-decoration: none;
    }
-nav a::before {
+nav div.links a::before {
    content='';
    position: absolute;
    left: 0px;
@@ -68,7 +68,7 @@ nav a::before {
    width: 0%;
    transition: all ease 5s;
 }
-nav a:hover::before{
+nav div.links a:hover::before{
    width: 100%;
 }
    .owner{
