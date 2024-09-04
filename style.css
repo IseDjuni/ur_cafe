@@ -59,7 +59,7 @@
       text-decoration: none;
    }
 nav div.links a::before {
-   content='';
+   content:'';
    position: absolute;
    left: 0px;
    bottom: -8px;
