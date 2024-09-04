@@ -62,14 +62,17 @@ nav div.links a::before {
    content='';
    position: absolute;
    left: 0px;
-   bottom: 8px;
+   bottom: -8px;
    height: 3px;
    background-color: rgb(255, 106, 6);
    width: 0%;
-   transition: all ease 1s;
+   transition: all .5s;
 }
 nav div.links a:hover::before{
    width: 100%;
+}
+nav div.links a:hover{
+   font-size: large;
 }
    .owner{
       margin-left: 0px;
