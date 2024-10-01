@@ -1,0 +1,524 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    line-height: 1.5;
+
+    font-size: 15px;
+
+    background-color: rgb(0, 0, 0);
+
+    margin: 0px;
+
+    padding: 0px;
+
+    color: rgba(0, 0, 0,1);
+
+ }
+
+  .index{
+
+    background-image: url('../web_ject/img_ject/ur_cafe.jpg');
+
+    background-repeat: no-repeat;
+
+    display: block;
+
+    background-size: cover;
+
+    width: 100vw;
+
+    height: 1080px;
+
+    height: 100vh;
+
+    width: fit-content;
+
+    height: fit-content;
+
+    position: relative;
+
+    filter: drop-shadow(1px 15px 8px black);
+
+    
+
+ }
+
+ .invex{
+
+  background-image: url('../web_ject/img_ject/faqs.jpg');
+
+  background-repeat: no-repeat;
+
+  display: block;
+
+  background-size: cover;
+
+  width: 100vw;
+
+  height: 1080px;
+
+  height: 100vh;
+
+  width: fit-content;
+
+  height: fit-content;
+
+  position: relative;
+
+  filter: drop-shadow(1px 15px 8px black);
+
+  padding: 35px;
+
+  top: -40px;
+
+  margin-left: -50px;
+
+  margin-right: -50px;
+
+
+
+ }
+
+ .incax{
+
+  background-image: url('../web_ject/img_ject/contacs.jpeg');
+
+  background-repeat: no-repeat;
+
+  display: block;
+
+  background-size: cover;
+
+  width: 100vw;
+
+  height: 1080px;
+
+  height: 100vh;
+
+  width: fit-content;
+
+  height: fit-content;
+
+  position: relative;
+
+  padding: 35px;
+
+  top: -27px;
+
+ }
+
+ .inbax{
+
+  background-image: url('../web_ject/img_ject/bout.jpeg');
+
+  background-repeat: no-repeat;
+
+  display: block;
+
+  background-size: cover;
+
+  width: 100vw;
+
+  height: 1080px;
+
+  height: 100vh;
+
+  width: fit-content;
+
+  height: fit-content;
+
+  position: relative;
+
+  padding: 35px;
+
+  top: -27px;
+
+ }
+
+ nav div.links a::before {
+
+    content:'';
+
+    position: absolute;
+
+    bottom: -7px;
+
+    height: 2px;
+
+    background-color: rgb(255, 106, 6);
+
+    width: 0%;
+
+    transition: all ease-out .3s;
+
+ }
+
+ nav div.links a:hover::before{
+
+    width: 6%;
+
+ }
+
+ nav div.links a:hover{
+
+    color: rgb(101,51,2);
+
+ }
+
+ 
+
+ .ads{
+
+    display: inline-flex;
+
+ }
+
+ .menu_dropdown{
+
+    border: 1px solid white;
+
+    background-color: white;
+
+    width: 10px;
+
+    height: 1px;
+
+ }
+
+ a{
+
+    text-decoration: none;
+
+ }
+
+ .owner{
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    padding-right: 0px;
+
+    padding-top: 0px;
+
+    width: 100vw;
+
+    width: 1400px;
+
+    height: 350px;
+
+    max-width: 100%;
+
+    height: auto;
+
+    background-color: #8e9df1;
+
+ }
+
+ option{
+
+    background-color: rgb(139, 107, 255);
+
+    color:rgb(0, 0, 0);
+
+    border-radius: 5px;
+
+    border: none;
+
+ }
+
+ .select_bar{
+
+    width: 80%;
+
+    height: 60px;
+
+    background-color: transparent;
+
+    border: 1px solid white;
+
+    color: white;
+
+    border-radius: 5px;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    font-weight: lighter;
+
+ }
+
+ .label_btn{
+
+    background-color: rgb(132, 152, 189);
+
+    border-radius: 5px;
+
+    border: 0px;
+
+    font-size: 18px;
+
+    color: rgb(0, 0, 0);
+
+    width: 110px;
+
+    font-weight: bold;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+
+ .contact_ref{
+
+    display: flex;
+
+    padding: 10px;
+
+    justify-content: space-around;
+
+    position: relative;
+
+ }
+
+ .footer_link{
+
+    display: flex;
+
+    padding: 20px;
+
+    justify-content: space-around;
+
+ }
+
+ .ddown{
+
+    display: inline-block;
+
+    position: relative;
+
+    float: right;
+
+  }
+
+  .ddown-content{
+
+    position: absolute;
+
+    display: none;
+
+    border: none;
+
+    transition: height 0.5;
+
+    overflow: hidden;
+
+    height: 0px;
+
+  }
+
+  .dd-but{
+
+    box-sizing:content-box;
+
+    grid-template-columns: 1fr;
+
+    display: grid;
+
+    position: relative; 
+
+    float: right; 
+
+    margin-right: 20px; 
+
+    top: -95px;
+
+    color:#ffffff;
+
+    width: 20px;
+
+    border: none;
+
+    cursor: pointer;
+
+    order: -10;
+
+    gap: 5px,
+
+  }
+
+  .ddown:hover > .ddown-content {
+
+    height: fit-content;
+
+    width: 150%;
+
+    display: block;
+
+    background-color: rgba(255, 255, 255, 0.1);
+
+    border-radius: 10px;
+
+  }
+
+  .ddown-content > a {
+
+    padding: 10px 15px;
+
+    text-decoration: none;
+
+  }
+
+  @face-font {
+
+       font-family: CustomFont12;
+
+       src: url('https://fonts.google.com/share?selection.family=Bebas+Neue');
+
+   }
+
+   @media screen and (max-width: 768px){
+
+    .gallary{
+       flex-wrap: wrap;
+
+    }
+    .contac_text{
+      width: 100%;
+    }
+    .bot{
+
+       width:22%;
+
+       height: 22%;
+
+    }
+
+    .ads{
+
+       flex-wrap:wrap;
+
+    }
+
+    .footer_link{
+
+       flex-wrap: wrap;
+
+       font-size: smaller;
+
+    }
+
+    .contact_ref{
+
+       flex-direction: column;
+
+    }
+
+    .footer{
+       position: relative;
+
+       float: center;
+
+    }
+    .boxes{
+      padding: 5px;
+    }
+    .links{
+      top: -0px;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      line-height: 25px;
+      font-size: 14px;
+      position: absolute;
+      display: none;
+    }
+    .inbax{
+        left:0px;
+        right: -50px;
+        width: 700px;
+    }
+    .ucy{
+        width: 200px;
+        height: 200px;
+        float: center; 
+    }
+    .owner{
+        width: fit-content;
+    }
+    .menu{
+        right: -20px;
+        height: 400px;
+        width: 250px;
+    }
+    .menu_text{
+        margin: 20px;
+    }
+    .background_footer{
+       padding:0px;
+    }
+    .place_order{
+        font-size: 9px;
+        padding: 7px;
+    }
+    .security{
+        font-size: 2px;
+    }
+    .cafe_img1{
+      display: none;
+    }
+    #inactive{
+      display: none;
+    }
+    .spinner{
+      display: none;
+    }
+    .bars{
+      display: none;
+    }
+    .invex{
+        left: 0px;
+        right: -50px;
+    }
+    .uiux{
+      font-family: serif;
+      font-size: 30px;
+    }
+    .text{
+      font-size: 16px;
+    }
+    .video_ads{
+      height: 180px;
+      width: 300px;
+    }
+
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1024px){
+
+    .gallary{
+
+       flex-wrap: wrap;
+
+    }
+
+    .ads{
+
+       flex-wrap: wrap;
+
+    }
+
+    .footer_link{
+
+       flex-wrap: wrap;
+
+    }
+
+    .contact_ref{
+
+       flex-wrap: wrap;
+
+    }
+
+ }
