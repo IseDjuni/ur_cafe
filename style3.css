@@ -18,7 +18,7 @@ body{
 
   .index{
 
-    background-image: url('../web_ject/img_ject/ur_cafe.jpg');
+    background-image: url('web_ject/img_ject/ur_cafe.jpg');
 
     background-repeat: no-repeat;
 
@@ -46,7 +46,7 @@ body{
 
  .invex{
 
-  background-image: url('../web_ject/img_ject/faqs.jpg');
+  background-image: url('web_ject/img_ject/faqs.jpg');
 
   background-repeat: no-repeat;
 
@@ -82,7 +82,7 @@ body{
 
  .incax{
 
-  background-image: url('../web_ject/img_ject/contacs.jpeg');
+  background-image: url('web_ject/img_ject/contacs.jpeg');
 
   background-repeat: no-repeat;
 
@@ -110,7 +110,7 @@ body{
 
  .inbax{
 
-  background-image: url('../web_ject/img_ject/bout.jpeg');
+  background-image: url('web_ject/img_ject/bout.jpeg');
 
   background-repeat: no-repeat;
 
